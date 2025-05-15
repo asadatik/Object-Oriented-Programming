@@ -3,9 +3,7 @@
 
   class Animal {
     constructor(
-      public name: string,
-      public species: string,
-      public sound: string
+      public name: string,  public species: string,   public sound: string
     ) {}
 
     makeSound() {
